@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: rgba(119, 119, 119, 1);
+
+}
+
+body {
+    background-color: rgba(138, 81, 252, 1)
+}
+
+.logo {
+    width: 200px;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 375px;
+    background-color: #f0f0f0;
+    margin: 50px auto;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+label {
+    font-weight: 400;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 72px;
+    font-size: 14px;
+    margin-top: 24px;
+
+}
+
+select,
+input {
+    width: 100%;
+    height: 48px;
+    top: 68px;
+    left: 24px;
+    opacity: 1;
+    border-radius: 4px;
+    border-width: 1px;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-top: 5px;
+    color: rgba(85, 85, 85, 1);
+    border-color: rgba(187, 187, 187, 1);
+    padding-left: 18px;
+    border-style: solid;
+    
+}
+
+select {
+    cursor: pointer;
+}
+
+b {
+    background-color: #f0f0f0;
+}
+
+.currency-logo {
+    width: 44px;
+    height: 44px;
+}
+
+.arrow-img {
+    width: 35px;
+    height: 49.93864059448242px;
+    margin: 15px;
+}
+
+button {
+    width: 100%;
+    height: 48px;
+    opacity: 1;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    background: rgba(119, 47, 211, 1);
+    color: rgba(255, 255, 255, 1);
+    margin: 23px;
+}
+
+button:hover {
+    background: rgba(98, 39, 174, 1);
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(1px);
+}
+
+.currency-label, .converted-currency-label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.value-to-convert, .converted-value {
+    font-size: 18px;
+    color: rgba(85, 85, 85, 1);
+}
+
+div {
+    border: 1px solid rgba(119, 47, 211, 1);
+    width: 100%;
+    height: 276px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 12px;
+}
